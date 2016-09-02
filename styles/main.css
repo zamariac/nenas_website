@@ -1,0 +1,202 @@
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.3)), url("../images/arepa1.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 60em; }
+
+.navbar {
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  background-color: #FFBA55;
+  border-color: #FFBA55; }
+
+.navbar-brand > img {
+  height: auto;
+  width: 4em; }
+
+.div .navbar-header {
+  background-color: #FFBA55; }
+
+.navbar-toggle .dropdown-hover {
+  background-color: #FFBA55; }
+
+.navbar i {
+  color: black; }
+
+.navbar-default:hover {
+  background-color: #FFBA55; }
+
+.navbar-default .navbar-brand {
+  color: black; }
+
+.navbar-default .navbar-toggle {
+  border-color: #FFBA55; }
+
+.navbar-default .navbar-collapse {
+  border-color: black;
+  padding-top: .5em;
+  padding-bottom: .5em; }
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #FFBA55; }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #FFBA55; }
+
+.nav-hamburger > a {
+  margin: 2em;
+  color: black;
+  padding-top: 1em; }
+
+.logo {
+  padding-top: 12em;
+  margin: 0 auto;
+  height: 25em;
+  width: 25em; }
+
+.nav-text {
+  text-align: center;
+  padding-top: 6em;
+  padding-bottom: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-spacing: 1.2px; }
+
+.sub-nav-text {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 3px; }
+
+.hola-text {
+  padding: 1em;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  background-color: #BAEEE2;
+  text-align: center; }
+
+.howto-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  padding: 1em;
+  background-color: #BAEEE2;
+  text-align: center; }
+
+.hands {
+  background: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.3)), url("../images/doughball5.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 35em; }
+
+.findus-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 40px;
+  color: white;
+  padding: 2em 1em; }
+
+.footer-top {
+  background-color: #FFBA55;
+  height: 5em; }
+
+.reachus-text {
+  background-color: black;
+  height: 16em;
+  padding-top: 6em;
+  padding-left: 1em;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center; }
+
+i {
+  color: white;
+  padding-left: .2em; }
+
+footer p {
+  padding-top: 1em;
+  padding-left: .8em; }
+
+@media (min-width: 479px) {
+  .main {
+    height: 75em; }
+
+  .logo {
+    padding-top: 10em;
+    margin: 0 auto;
+    height: 32em;
+    width: 32em; }
+
+  .navbar {
+    font-size: 18px; }
+
+  span.nav-hamburger > a {
+    margin-top: 2em; }
+
+  .nav-text {
+    font-size: 60px;
+    padding-bottom: .5em;
+    padding-top: 4em; }
+
+  .sub-nav-text {
+    font-size: 20px; }
+
+  .hola-text {
+    padding: 2em;
+    font-size: 22px; }
+
+  .howto-text {
+    padding: 2em;
+    font-size: 22px; }
+
+  .findus-text {
+    font-size: 46px; }
+
+  .hands {
+    height: 42em; } }
+@media (min-width: 768px) {
+  .nav.navbar-nav.navbar-right {
+    margin-top: .5em; }
+
+  .hola-text {
+    padding: 2em; }
+
+  .howto-text {
+    padding: 2em; } }
+@media (min-width: 979px) {
+  .logo {
+    height: 35em;
+    width: 35em; }
+
+  .hola-text {
+    font-size: 24px;
+    padding-left: 25%;
+    padding-right: 25%; }
+
+  .howto-text {
+    font-size: 24px;
+    padding-left: 25%;
+    padding-right: 25%; }
+
+  .hands {
+    height: 55em; }
+
+  #carousel-example-generic {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 60em; }
+
+  .carousel-inner {
+    width: 60em; }
+
+  .findus-text {
+    font-size: 60px;
+    height: 45px; } }
+
+/*# sourceMappingURL=main.css.map */
