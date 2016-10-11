@@ -11,23 +11,3 @@ $('.dropdown').click((e) => {
 	}
 
 });
-
-// $('.nav-hamburger').click((e) =>{
-// 	e.preventDefault();
-// 	console.log('hello');
-
-// 	if ($('.nav-hamburger').is(':visible')){
-// 		$('.navbar-collapse').toggle("hide")
-// 	}
-// 	else{
-// 		$('.navbar-collapse').toggle("show")
-// 	}
-
-// });
-
-
-
-
-// $('.carousel').carousel({
-// 		interval: 3000
-// 	})
