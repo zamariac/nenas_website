@@ -89,16 +89,21 @@
   text-align: center; }
 
 .hands {
-  background: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.3)), url("../images/doughball5.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.09), black), url("../images/doughball5.jpg");
   background-size: cover;
   background-position: top;
   height: 35em; }
 
 .findus-text {
   font-family: 'PT Sans', sans-serif;
-  font-size: 40px;
+  text-align: center;
   color: white;
-  padding: 2em 1em; }
+  padding: 2em; }
+  .findus-text div {
+    font-size: 18px;
+    margin: 60px; }
+    .findus-text div a {
+      color: white; }
 
 .footer-top {
   background-color: #FFBA55;
@@ -154,7 +159,11 @@ footer p {
     font-size: 22px; }
 
   .findus-text {
-    font-size: 46px; }
+    font-size: 22px;
+    padding: 2em; }
+    .findus-text div {
+      font-size: 20px;
+      margin: 60px; }
 
   .hands {
     height: 42em; } }
@@ -166,7 +175,12 @@ footer p {
     padding: 2em; }
 
   .howto-text {
-    padding: 2em; } }
+    padding: 2em; }
+
+  .findus-text {
+    padding: 4em; }
+    .findus-text div {
+      display: inline-block; } }
 @media (min-width: 979px) {
   .logo {
     height: 35em;
@@ -196,7 +210,8 @@ footer p {
     width: 60em; }
 
   .findus-text {
-    font-size: 60px;
-    height: 45px; } }
+    font-size: 28px; }
+    .findus-text div {
+      font-size: 24px; } }
 
 /*# sourceMappingURL=main.css.map */
