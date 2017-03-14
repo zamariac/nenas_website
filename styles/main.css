@@ -102,10 +102,11 @@
   .findus-text div {
     font-size: 18px;
     margin: 60px;
-    background-color: #0068DD;
-    padding: .5em; }
+    background-color: white;
+    padding: .8em;
+    color: black; }
     .findus-text div a {
-      color: white; }
+      color: black; }
 
 .footer-top {
   background-color: #FFBA55;
