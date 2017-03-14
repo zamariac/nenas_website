@@ -89,7 +89,7 @@
   text-align: center; }
 
 .hands {
-  background: linear-gradient(rgba(0, 0, 0, 0.09), black), url("../images/doughball5.jpg");
+  background: url("../images/doughball5.jpg");
   background-size: cover;
   background-position: top;
   height: 35em; }
@@ -101,7 +101,9 @@
   padding: 2em; }
   .findus-text div {
     font-size: 18px;
-    margin: 60px; }
+    margin: 60px;
+    background-color: #0068DD;
+    padding: .5em; }
     .findus-text div a {
       color: white; }
 

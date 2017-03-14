@@ -118,7 +118,7 @@
 }
 
 .hands{
-	background: linear-gradient( rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 1) ), url("../images/doughball5.jpg");
+	background: url("../images/doughball5.jpg");
 	background-size: cover;
 	background-position: top;
 	height: 35em;
@@ -134,6 +134,9 @@
 		div{
 			font-size:18px;
 			margin: 60px;
+			background-color:#0068DD;
+			padding:.5em;
+
 			a{
 				color: white;
 			}
