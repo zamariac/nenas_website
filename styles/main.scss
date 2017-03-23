@@ -66,6 +66,7 @@
 .nav-hamburger > a{
 	margin: 2em ;
 	color: black;
+	font-size:14px;
 	padding-top: 1em;
 
 }
@@ -80,13 +81,13 @@
 
 .nav-text{
 	text-align: center;
-	padding-top: 6em;
-	padding-bottom: 1em;
+	padding-top: 4em;
+	// padding-bottom: 1em;
 	padding-left: .5em;
 	padding-right: .5em;
 	color: white;
 	font-family: 'PT Sans', sans-serif;
-	font-size: 36px;
+	font-size: 45px;
 	letter-spacing: 2px;
 	line-spacing: 1.2px;
 
@@ -96,12 +97,12 @@
 	color:white;
 	font-family: 'PT Sans', sans-serif;
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
 	letter-spacing: 3px;
 }
 
 .hola-text{
-	padding: 1em;
+	padding: 1em 1em 2.5em;
 	font-family: 'PT Sans', sans-serif;
 	font-size:18px;
 	background-color: #BAEEE2;
@@ -111,10 +112,14 @@
 .howto-text{
 	font-family: 'PT Sans', sans-serif;
 	font-size:18px;
-	padding: 1em;
+	padding: 1em 1em 2.5em;
 	background-color: #BAEEE2;
 	text-align: center;
 
+}
+
+.carousel-control{
+	text-shadow: none;
 }
 
 .hands{
@@ -137,7 +142,6 @@
 			background-color:white;
 			padding:.8em;
 			color: black;
-			border: 6px solid #FFBA55;
 
 			a{
 				color: black;
@@ -168,9 +172,9 @@ i{
 
 }
 
-footer p {
-	padding-top: 1em;
-	padding-left: .8em;
+footer{
+	text-align: center;
+	font-size: 18px;
 	 
 }
 
@@ -192,8 +196,8 @@ footer p {
 		margin-top: 2em;
 		}
 		.nav-text{
-		font-size: 60px;
-		padding-bottom: .5em;
+		font-size: 52px;
+		// padding-bottom: .5em;
 		padding-top: 4em;
 				
 		}
@@ -201,11 +205,11 @@ footer p {
 		font-size: 20px;
 		}
 		.hola-text{
-		padding: 2em;
+		padding: 2em 2em 3em;
 		font-size: 22px;
 		}
 		.howto-text{
-		padding: 2em;
+		padding: 2em 2em 3em;
 		font-size: 22px;
 		}
 		.findus-text{
@@ -228,17 +232,23 @@ footer p {
 		margin-top: .5em;
 
 	}
-	.hola-text{
-		padding: 2em;
+	// .hola-text{
+	// 	padding: 2em 2em 3em;
 
-		}
-		.howto-text{
-		padding: 2em;
-		}
+	// 	}
+	// 	.howto-text{
+	// 	padding: 2em 2em 3;
+	// 	}
+
+	.hands{
+		height: 50em;
+	}
 	.findus-text{
 		padding:4em;
+
 		div{
 		display: inline-block;
+		width: 15em;
 			
 		}
 		
@@ -264,7 +274,7 @@ footer p {
 		 padding-right: 25%;
 	}
 	.hands{
-		height: 55em;
+		height: 52em;
 	}
 	#carousel-example-generic{
 		margin-left: auto;
