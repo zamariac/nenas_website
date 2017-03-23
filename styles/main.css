@@ -1,5 +1,5 @@
 .main {
-  background: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.3)), url("../images/arepa1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.3)), url("../images/arepa.jpg");
   background-size: cover;
   background-position: top;
   height: 60em; }
@@ -89,7 +89,7 @@
   text-align: center; }
 
 .hands {
-  background: url("../images/doughball5.jpg");
+  background: url("../images/doughball.jpg");
   background-size: cover;
   background-position: top;
   height: 35em; }
@@ -104,7 +104,8 @@
     margin: 60px;
     background-color: white;
     padding: .8em;
-    color: black; }
+    color: black;
+    border: 6px solid #FFBA55; }
     .findus-text div a {
       color: black; }
 
