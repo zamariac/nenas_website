@@ -102,7 +102,7 @@
 }
 
 .hola-text{
-	padding: 1em 1em 2.5em;
+	padding: 1em 2.5em;
 	font-family: 'PT Sans', sans-serif;
 	font-size:18px;
 	background-color: #BAEEE2;
@@ -175,6 +175,14 @@ i{
 footer{
 	text-align: center;
 	font-size: 18px;
+	 p > a{
+	 	color: white;
+
+	 }
+	 a:hover{
+	 		color:white;
+
+	 	}
 	 
 }
 
@@ -205,11 +213,11 @@ footer{
 		font-size: 20px;
 		}
 		.hola-text{
-		padding: 2em 2em 3em;
+		padding: 2em 3em;
 		font-size: 22px;
 		}
 		.howto-text{
-		padding: 2em 2em 3em;
+		padding: 2em 3em;
 		font-size: 22px;
 		}
 		.findus-text{
