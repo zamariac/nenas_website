@@ -75,7 +75,8 @@
   letter-spacing: 3px; }
 
 .hola-text {
-  padding: 1em 2.5em;
+  padding-top: 1em;
+  padding-bottom: 3em;
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
   background-color: #BAEEE2;
@@ -84,7 +85,8 @@
 .howto-text {
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
-  padding: 1em 1em 2.5em;
+  padding-top: 1em;
+  padding-bottom: 3em;
   background-color: #BAEEE2;
   text-align: center; }
 
@@ -160,11 +162,13 @@ footer {
     font-size: 20px; }
 
   .hola-text {
-    padding: 2em 3em;
+    padding-top: 2em;
+    padding-bottom: 3em;
     font-size: 22px; }
 
   .howto-text {
-    padding: 2em 3em;
+    padding-top: 2em;
+    padding-bottom: 3em;
     font-size: 22px; }
 
   .findus-text {
